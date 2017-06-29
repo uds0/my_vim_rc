@@ -23,12 +23,6 @@ Plugin 'valloric/youcompleteme'
 " Snippets are separated from the engine. Add this if you want them:
 "Plugin 'honza/vim-snippets'
 
-" " Trigger configuration. Do not use <tab> if you use
-" https://github.com/Valloric/YouCompleteMe.
-"let g:UltiSnipsExpandTrigger="<tab>"
-"let g:UltiSnipsJumpForwardTrigger="<c-b>"
-"let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -63,6 +57,7 @@ syntax on
 set t_Co=256
 set laststatus=2
 let g:airline_theme='serene'
-colorscheme cobalt
-"colorscheme badwolf
+"colorscheme cobalt
+colorscheme badwolf
 imap jj <esc>
+set nu
