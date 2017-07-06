@@ -17,6 +17,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'mattn/emmet-vim'
 Plugin 'valloric/youcompleteme'
+Plugin 'spf13/vim-autoclose'
+
 
 "Plugin 'SirVer/ultisnips'
 
@@ -61,3 +63,8 @@ let g:airline_theme='serene'
 colorscheme badwolf
 imap jj <esc>
 set nu
+set tabstop=4
+let g:autoclose_vim_commentmode = 1
+let g:closetag_html_style=1
+let g:ctrlp_show_hidden = 1
+let NERDTreeShowHidden=1
